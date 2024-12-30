@@ -1,0 +1,1 @@
+This bug occurs when using KVO (Key-Value Observing) in Objective-C.  The observer is not removed properly, leading to crashes or unexpected behavior after the observed object is deallocated. This is often subtle because the crash might happen much later than the actual error, making it hard to debug.
